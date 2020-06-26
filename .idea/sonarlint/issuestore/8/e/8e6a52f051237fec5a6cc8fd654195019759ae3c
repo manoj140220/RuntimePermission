@@ -1,0 +1,9 @@
+
+Fsquid:S1066"/Merge this if statement with the enclosing one.(¨»é¤
+^squid:S3973"GUse indentation to denote the code conditionally executed by this "if".(ÆŽÙâ
+nsquid:S3776$"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(§¢‰Íþÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö¹ã¡ûÿÿÿÿ
+asquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ»‚
+gsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(ñ–Í‰ÿÿÿÿÿ
+bsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(ØÜÎè
+bsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(ØÜÎè
