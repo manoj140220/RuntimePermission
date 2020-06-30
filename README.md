@@ -1,7 +1,7 @@
 # RuntimePermission
 Run-time permission : If an app needs to use resources or information outside of its own sandbox, the app has to request the appropriate permission.
 
-#Gradle
+# Gradle
 
 	allprojects {
 		repositories {
