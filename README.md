@@ -16,7 +16,10 @@ Run-time permission : If an app needs to use resources or information outside of
   
   # Usage
   
-	  new RuntimePermission({Current Class Object}, String[] , ActvityContext);
+	  new RuntimePermission({Current Class Object}, String[] , {ActvityContext});
+	  
+	  String[] : permission array.
+	  example  : String[] permissionArray = {Manifest.permission.CAMERA, Manifest.permission.BODY_SENSORS,...} 
   
   Impliment : {PermissionNotify} in the class where you are calling "RuntimePermission".
   
