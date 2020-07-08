@@ -23,6 +23,12 @@ public class RuntimePermission implements NotifyPermission {
     private Activity activity;
     static NotifyPermission notifyPermission;
 
+    public RuntimePermission() {
+        /**
+         * Default Constructor, to access other public methods.
+         * */
+    }
+
     public RuntimePermission(PermissionNotify permissionNotify,
                              String[] permissionObject,
                              Activity activity) {
