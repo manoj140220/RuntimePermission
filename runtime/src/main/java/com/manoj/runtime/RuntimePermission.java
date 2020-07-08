@@ -46,7 +46,7 @@ public class RuntimePermission implements NotifyPermission {
             permissionNotify.notifyPermissionGrant();
     }
 
-    private boolean hasPermissionsGranted(String[] permissions) {
+    public boolean hasPermissionsGranted(String[] permissions) {
         for (String permission : permissions) {
             if (ActivityCompat.checkSelfPermission(activity, permission)
                     != PackageManager.PERMISSION_GRANTED) {

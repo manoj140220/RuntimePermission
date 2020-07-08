@@ -15,3 +15,7 @@ o
 ?app/src/main/java/com/manoj/runtimepermission/MainActivity.java,d/e/de860e1afe1419318ef57abebd92a5ca94557131
 n
 >runtime/src/main/java/com/manoj/runtime/RuntimePermission.java,d/9/d9b21e46313d6a575156effc4f18d2d9b15a3da4
+v
+Fruntime/src/main/java/com/manoj/runtime/notifier/NotifyPermission.java,b/a/badb19e24fba574dea4be3839929f37672985576
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
