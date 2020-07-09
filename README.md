@@ -11,7 +11,7 @@ Run-time permission : If an app needs to use resources or information outside of
 	}
   
 	dependencies {
-		implementation 'com.github.manoj140220:RuntimePermission:1.0.0'
+		implementation 'com.github.manoj140220:RuntimePermission:1.0.3'
 	}
   
   # Usage
