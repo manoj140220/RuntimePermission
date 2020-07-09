@@ -36,7 +36,7 @@ public class RuntimePermission implements NotifyPermission {
         this.permissionData = permissionObject;
         this.activity = activity;
         notifyPermission = this;
-        if (!hasPermissionsGranted(permissionData))
+        if (!hasPermissionsGranted(permissionData, activity))
             requestPermission(permissionData);
         else
             this.permissionNotify.notifyPermissionGrant();
@@ -52,7 +52,7 @@ public class RuntimePermission implements NotifyPermission {
             permissionNotify.notifyPermissionGrant();
     }
 
-    public boolean hasPermissionsGranted(String[] permissions) {
+    public boolean hasPermissionsGranted(String[] permissions, Activity activity) {
         for (String permission : permissions) {
             if (ActivityCompat.checkSelfPermission(activity, permission)
                     != PackageManager.PERMISSION_GRANTED) {
